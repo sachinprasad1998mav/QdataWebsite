@@ -1,0 +1,20 @@
+.dropdown-item:hover {
+  background-color: #6dc5d1;
+  color: white;
+}
+
+.nav-color {
+  background-color: #f8f4e1;
+}
+
+.section-two {
+  background-image: url(/images/team.jpg);
+}
+
+.section-three {
+  background-color: #f5dad2;
+}
+
+.section-footer {
+  background-color: #57a6a1;
+}
