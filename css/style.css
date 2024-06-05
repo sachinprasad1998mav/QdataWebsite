@@ -9,6 +9,9 @@
 
 .section-two {
   background-image: url(/images/team.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .section-three {
@@ -22,4 +25,33 @@
 .custom-background {
   background-image: url(/images/group_call.jpg);
   background-size: cover;
+}
+.carousel-inner,
+.carousel-item {
+  height: 500px; /* Set your desired height here */
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  color: #ffeea9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
 }
