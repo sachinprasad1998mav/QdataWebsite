@@ -28,7 +28,7 @@
 }
 .carousel-inner,
 .carousel-item {
-  height: 650px; /* Set your desired height here */
+  height: 600px; /* Set your desired height here */
 }
 
 .carousel-item img {
