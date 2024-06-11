@@ -3,6 +3,47 @@
   color: white;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px) {
+  .carousel,
+  .carousel .carousel-inner,
+  .carousel .carousel-item,
+  .carousel .carousel-item img {
+    height: 500px; /* Adjust the height value as desired */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .carousel,
+  .carousel .carousel-inner,
+  .carousel .carousel-item,
+  .carousel .carousel-item img {
+    height: 400px; /* Adjust the height value as desired */
+  }
+}
+
+@media (max-width: 767px) {
+  .carousel,
+  .carousel .carousel-inner,
+  .carousel .carousel-item,
+  .carousel .carousel-item img {
+    height: 300px; /* Adjust the height value as desired */
+  }
+}
+
 .nav-color {
   background-color: white;
 }
